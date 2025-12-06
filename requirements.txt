@@ -1,0 +1,11 @@
+streamlit
+librosa
+numpy
+pandas
+moviepy
+google-generativeai
+python-dotenv
+scipy
+matplotlib
+plotly
+soundfile
