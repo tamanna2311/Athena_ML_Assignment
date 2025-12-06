@@ -9,6 +9,34 @@ A multimodal AI pipeline that analyzes pitch videos/audio for both vocal deliver
 - **Virtual Shark Panel**: Generates personalized feedback from 3 AI personas (Visionary, Finance Shark, Skeptic).
 - **Interactive UI**: Streamlit-based interface for easy uploading and visualization.
 
+## 🚀 Quick Start
+
+### Option 1: The Easy Way (Mac/Linux)
+We've included a script to set everything up for you automatically.
+
+1.  Open your terminal.
+2.  Run the launch script:
+    ```bash
+    ./launch_app.sh
+    ```
+    *(Note: If permission is denied, run `chmod +x launch_app.sh` first)*
+
+### Option 2: Manual Setup
+1.  Create a virtual environment:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  Run the app:
+    ```bash
+    export PYTHONPATH=$PYTHONPATH:$(pwd)
+    streamlit run app.py
+    ```
+
 ## Setup
 
 1.  **Install Dependencies**:
